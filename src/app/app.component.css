@@ -1,0 +1,32 @@
+.float-menu {
+    position: fixed;
+    top: 20;
+    left: 20;
+    padding: 10px 10px;
+    background-color: rgba(0, 0, 0, 0.076);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.tool-button {
+    padding: 3px;
+    background-color: rgba(0, 0, 0, 0.076);
+    cursor: pointer;
+    border-radius: 3px;
+    transition: colors 0.2s;
+}
+
+.tool-button.active svg {
+    color: rgb(60, 106, 255);
+}
+
+.tool-button:hover {
+    background-color: rgba(0, 0, 0, 0.12);
+}
+
+.tool-button svg {
+    display: block;
+    color: rgb(40, 41, 58);
+}
